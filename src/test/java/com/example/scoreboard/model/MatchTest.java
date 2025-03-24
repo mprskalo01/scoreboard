@@ -1,4 +1,4 @@
-package scoreboard.model;
+package com.example.scoreboard.model;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

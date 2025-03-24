@@ -1,4 +1,4 @@
-package scoreboard.model;
+package com.example.scoreboard.model;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
