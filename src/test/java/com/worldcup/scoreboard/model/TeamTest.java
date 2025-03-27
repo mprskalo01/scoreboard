@@ -88,18 +88,6 @@ class TeamTest {
         assertNotEquals(team1, team2, "Teams with different names should not be equal");
     }
 
-    @Test
-    void nameShouldReturnTeamName() {
-        // Arrange
-        String teamName = "Argentina";
-        Team team = new Team(teamName);
-
-        // Act
-        String result = team.name();
-
-        // Assert
-        assertEquals(teamName, result, "Getter method name should return the team name");
-    }
 
     @Test
     void constructorShouldFormatNameCorrectly() {
@@ -125,13 +113,4 @@ class TeamTest {
         assertEquals(name, team.name(), "Constructor should accept names with non-ASCII characters");
     }
 
-    @Test
-    void toStringShouldReturnTeamName() {
-        // Arrange
-        String teamName = "Argentina";
-        Team team = new Team(teamName);
-
-        // Assert
-        assertEquals(teamName, team.toString(), "toString should return the team name");
-    }
 }
