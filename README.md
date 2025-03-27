@@ -64,6 +64,9 @@ Matches summary:
 
 ## Class Documentation
 
+I chose this structure because in my mind it prioritizes scalability, maintainability, and OO principles (SOLID, Clean Code). Key structural choices enable future extensions (e.g., thread safety, database integration) without breaking changes.
+For now it is a simple little library.
+
 ### Team Class
 - **Immutable record class** for team handling
 
