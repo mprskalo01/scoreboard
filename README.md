@@ -13,19 +13,57 @@ A simple Java library for managing live football match scores. This library prov
 - Generate match summary with custom sorting
 
 ## Usage
-See the Quickstart class for the coding exercise example solution which showcases main guideline features
+
+### Installation
+
+#### Option 1: Install via Maven
+To use `scoreboard-library`, add the following dependency to your `pom.xml`:
+
+```xml
+<dependency>
+  <groupId>com.worldcup</groupId>
+  <artifactId>scoreboard-library</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
+```
+
+Then, install the package using Maven:
+
+```sh
+mvn install
+```
+
+#### Option 2: Manual Installation
+1. Download the latest JAR file from the [GitHub Releases](https://github.com/mprskalo01/scoreboard/releases).
+2. Place the JAR file in your project’s `libs` folder.
+3. Add the JAR to your classpath:
+   
+   **For Java Projects:**
+   ```sh
+   javac -cp libs/scoreboard-library-1.0-SNAPSHOT.jar YourMainClass.java
+   java -cp libs/scoreboard-library-1.0-SNAPSHOT.jar:. YourMainClass
+   ```
+   
+   **For Maven Projects:**
+   Add the JAR manually to your local repository:
+   ```sh
+   mvn install:install-file -Dfile=libs/scoreboard-library-1.0-SNAPSHOT.jar -DgroupId=com.worldcup -DartifactId=scoreboard-library -Dversion=1.0-SNAPSHOT -Dpackaging=jar
+   ```
+
+---
+
 ### Import
 ```java
 import com.worldcup.scoreboard.Scoreboard;
 import com.worldcup.scoreboard.model.Match;
-``` 
+```
 
 ### Initialize Scoreboard
 ```java
 ScoreboardService scoreboard = new ScoreboardService();
 ```  
 
-### Start matches
+### Start Matches
 ```java
 Match match1 = scoreboard.startMatch("Mexico", "Canada");
 Match match2 = scoreboard.startMatch("Spain", "Brazil");
@@ -54,7 +92,7 @@ Matches summary:
 1. Spain 4 - Brazil 2
 2. Germany 2 - France 2
 3. Mexico 0 - Canada 0
-```  
+```
 
 ## Class Documentation
 
