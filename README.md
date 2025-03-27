@@ -14,6 +14,12 @@ A simple Java library for managing live football match scores. This library prov
 
 ## Usage
 
+Straight forward: 
+- 1. Clone the repository using ```git clone https://github.com/mprskalo01/scoreboard.git``` to get started. 
+- 2. Simply run the Quickstart file.
+
+Package installation: download the jar file from Github Packages and add to project using IDE.
+
 ### Import
 ```java
 import com.worldcup.scoreboard.Scoreboard;
@@ -59,7 +65,7 @@ Matches summary:
 ## Class Documentation
 
 ### Team Class
-- **Immutable record class** ensuring thread safety  
+- **Immutable record class** for team handling
 
 #### Validation:
 - Minimum 3 character names  
@@ -99,7 +105,7 @@ Matches summary:
 
 #### Design:
 - Receives reference list for position comparison  
-- Implements standard Java `Comparator` interface  
+- Inherits standard Java `Comparator` interface  
 
 ---
 
@@ -113,20 +119,11 @@ Matches summary:
 - Unique team pairs  
 - Match existence checks  
 - Progress state verification  
-
-#### Thread Safety:
-- Defensive copies for returned collections  
-- State changes through controlled methods  
-
 ---
 
 ### Scoreboard Class (Public API)  
 
 #### Facade Pattern:
 - Simplified interface for core operations  
-- Team creation abstraction  
-
-#### Error Handling:
-- Translated service exceptions  
-- Consistent validation messages  
+- Team creation abstraction   
 ---
