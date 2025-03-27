@@ -41,4 +41,12 @@
             </testResource>
         </testResources>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub mprskalo01 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/mprskalo01/scoreboard</url>
+        </repository>
+    </distributionManagement>
+
 </project>
