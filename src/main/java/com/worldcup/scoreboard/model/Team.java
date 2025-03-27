@@ -1,4 +1,4 @@
-package com.example.scoreboard.model;
+package com.worldcup.scoreboard.model;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

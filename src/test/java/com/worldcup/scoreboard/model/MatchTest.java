@@ -1,4 +1,4 @@
-package com.example.scoreboard.model;
+package com.worldcup.scoreboard.model;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -118,19 +118,6 @@ class MatchTest {
 
         // Assert
         assertEquals(5, totalScore, "Total score should be the sum of home and away scores");
-    }
-
-    @Test
-    void getMatchShouldContainTeamNamesAndScores() {
-        // Arrange
-        match.updateScore(3, 1);
-        String expected = "Spain 3 - Brazil 1";
-
-        // Act
-        String result = match.getMatch();
-
-        // Assert
-        assertEquals(expected, result, "getMatch should return formatted match result");
     }
 
     @Test

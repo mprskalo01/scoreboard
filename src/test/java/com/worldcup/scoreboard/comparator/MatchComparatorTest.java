@@ -1,10 +1,10 @@
 
-package com.example.scoreboard.comparator;
+package com.worldcup.scoreboard.comparator;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import com.example.scoreboard.model.Match;
-import com.example.scoreboard.model.Team;
+import com.worldcup.scoreboard.model.Match;
+import com.worldcup.scoreboard.model.Team;
 
 import java.util.ArrayList;
 import java.util.List;

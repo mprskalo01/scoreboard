@@ -1,6 +1,6 @@
-package com.example.scoreboard.comparator;
+package com.worldcup.scoreboard.comparator;
 
-import com.example.scoreboard.model.Match;
+import com.worldcup.scoreboard.model.Match;
 
 import java.util.Comparator;
 import java.util.List;

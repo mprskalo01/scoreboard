@@ -1,4 +1,4 @@
-package com.example.scoreboard.model;
+package com.worldcup.scoreboard.model;
 
 import java.time.LocalDateTime;
 
@@ -132,9 +132,4 @@ public class Match {
     public String toString() {
         return homeTeam.name() + " " + homeScore + " - " + awayTeam.name() + " " + awayScore;
     }
-
-    public String getMatch() {
-        return homeTeam.name() + " " + homeScore + " - " + awayTeam.name() + " " + awayScore;
-    }
-
 }
