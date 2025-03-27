@@ -14,27 +14,9 @@ A simple Java library for managing live football match scores. This library prov
 
 ## Usage
 
-### Installation
 
-#### Option 1: Install via Maven
-To use `scoreboard-library`, add the following dependency to your `pom.xml`:
-
-```xml
-<dependency>
-  <groupId>com.worldcup</groupId>
-  <artifactId>scoreboard-library</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
-```
-
-Then, install the package using Maven:
-
-```sh
-mvn install
-```
-
-#### Option 2: Manual Installation
-1. Download the latest JAR file from the [GitHub Releases](https://github.com/mprskalo01/scoreboard/releases).
+#### Manual Installation
+1. Download the latest JAR file from the [GitHub Packages](https://github.com/mprskalo01/scoreboard/packages/2449748).
 2. Place the JAR file in your project’s `libs` folder.
 3. Add the JAR to your classpath:
    
